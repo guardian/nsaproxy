@@ -14,5 +14,13 @@ puts one's client-side HTML, JavaScript, CSS and other content in the
 static/ subdirectory, and accesses it by going to localhost:8888 (or another
 port, if configured).
 
+Dependencies
+============
+
+nsaproxy depends on the [node-static](https://github.com/cloudhead/node-static) package; to install, run the command `npm install node-static`.
+
+About
+=====
+
 nsaproxy was written by Andrew Bulhak during the Guardian's January 2014 Hack Day.
 It is still a work in progress, and could do with a lot of improvement.
